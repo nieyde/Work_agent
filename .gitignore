@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# 敏感信息
+.env
+
+# FAISS 向量库文件（运行时构建，不需要提交）
+data/vector_store/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# 数据文件（运行时生成）
+data/user_profiles.json
